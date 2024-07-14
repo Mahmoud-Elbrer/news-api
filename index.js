@@ -5,6 +5,7 @@ const news = require("./routes/news");
 const httpStatus = require("./utils/httpStatus");
 const fileEasyUpload = require("express-easy-fileuploader");
 require("./utils/swagger")(app);
+require("./utils/swagger")(app);
 
 
 app.use(express.json());
